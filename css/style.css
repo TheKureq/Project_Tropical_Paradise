@@ -251,6 +251,12 @@ body {
           animation: navItemsAnimation 1s both;
 }
 
+.black-bars-color,
+.black-bars-color::after,
+.black-bars-color::before {
+  background-color: #2e2e2e;
+}
+
 .header {
   position: relative;
   display: -webkit-box;
@@ -703,10 +709,10 @@ body {
 .footer__box-link {
   font-size: 3.6rem;
   color: #fff;
-  padding: 0 .3em;
+  padding: 0 0.3em;
   text-decoration: none;
-  -webkit-transition: color .3s;
-  transition: color .3s;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
 }
 
 .footer__box-link:hover {
