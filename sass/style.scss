@@ -244,13 +244,13 @@ body {
 			transition: transform 1s, opacity 1s;
 
 			&--first {
-				background-image: $light-blue-gradient, url('/img/boat-166738_640.jpg');
+				background-image: $light-blue-gradient, url('../img/boat-166738_640.jpg');
 			}
 			&--second {
-				background-image: $blue-gradient, url('/img/water-3354063_640.jpg');
+				background-image: $blue-gradient, url('../img/water-3354063_640.jpg');
 			}
 			&--third {
-				background-image: $purple-gradient, url('/img/hawaii-79928_640.jpg');
+				background-image: $purple-gradient, url('../img/hawaii-79928_640.jpg');
 			}
 
 			&-title {
@@ -437,6 +437,25 @@ body {
 }
 
 // CONTACT
+.contact {
+	position: relative;
+	background-color: $light-white;
+	overflow: hidden;
+
+	.white-block-left {
+		background-color: $dark;
+	}
+
+	&__form {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__form-top {
+		display: flex;
+		flex-direction: column;
+	}
+}
 
 .contact__form-btn {
 	
