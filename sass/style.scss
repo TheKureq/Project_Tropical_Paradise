@@ -367,8 +367,6 @@ body {
 			margin-bottom: 0.5em;
 			font-size: 1.3rem;
 			color: $dark;
-
-			// test 13
 		}
 
 		&-btn {
@@ -579,7 +577,7 @@ body {
 	}
 }
 
-@media (min-width: 1100) {
+@media (min-width: 1100px) {
 	.islands {
 		&__card {
 			width: 30%;
