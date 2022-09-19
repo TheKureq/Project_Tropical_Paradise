@@ -8,6 +8,7 @@
     <title>Tropical Paradise</title>
 
     <!-- style -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="./css/style.css">
 
     <!-- fonts -->
@@ -228,7 +229,7 @@
                             <p class="reviews__box-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
                                 quae deleniti expedita porro, consectetur delectus. Enim perferendis sed voluptatibus
                                 veniam?</p>
-                                <strong>Anna Nowak</strong>
+                            <strong>Anna Nowak</strong>
                         </div>
                     </div>
 
@@ -242,7 +243,7 @@
                             <p class="reviews__box-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
                                 quae deleniti expedita porro, consectetur delectus. Enim perferendis sed voluptatibus
                                 veniam?</p>
-                                <strong>Jan Kowalski</strong>
+                            <strong>Jan Kowalski</strong>
                         </div>
                     </div>
 
@@ -256,7 +257,7 @@
                             <p class="reviews__box-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
                                 quae deleniti expedita porro, consectetur delectus. Enim perferendis sed voluptatibus
                                 veniam?</p>
-                                <strong>Maria Wiśniewska</strong>
+                            <strong>Maria Wiśniewska</strong>
                         </div>
                     </div>
 
@@ -264,8 +265,39 @@
                 </div>
             </div>
         </section>
+
+        <section class="contact section-padding white-section" id="contact">
+            <div class="white-block white-block-left"></div>
+            <div class="white-block white-block-right"></div>
+            <h2 class="section-heading">Kontakt</h2>
+
+            <div class="wrapper">
+                <form class="contact__form">
+                    <div class="contact__form-top">
+
+                        <label for="name" class="contact__form-label">Imię i Nazwisko:</label>
+                        <input type="text" class="contact__form-input" id="name">
+                        
+                        <label for="email" class="contact__form-label">Adres e-mail:</label>
+                        <input type="text" class="contact__form-input" id="email">
+
+                    </div>
+
+                    <label for="msg class=" class="contact__form-label">Wiadomość:</label>
+                    <textarea class="contact__form-textarea" id="msg"></textarea>
+
+                    <button type="submit" class="contact__form-btn btn-specia-animation">Wyślij</button>
+                </form>
+            </div>
+
+        </section>
     </main>
 
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/slick.js"></script>
     <script src="./js/script.js"></script>
 </body>
 
