@@ -3,6 +3,6 @@
 TECHNOLOGIES:
 * HTML 🟠
 * CSS 🔵
-* BOOTSTRAP 🟣
+  * Flex 🔳
 * SASS 🟣
-* JS (very basic) 🟡
+* JS (basic) 🟡
