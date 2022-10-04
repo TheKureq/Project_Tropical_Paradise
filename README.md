@@ -1,9 +1,8 @@
-Project_Tropical_Paradise
+﻿# Project_Tropical_Paradise
 
 TECHNOLOGIES:
-
 * HTML 🟠
 * CSS 🔵
- * Flex 🔳
+  * Flex 🔳
 * SASS 🟣
 * JS (basic) 🟡
